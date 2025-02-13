@@ -1,0 +1,168 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f8f9fa;
+    color: #333;
+    text-align: center;
+    
+}
+
+/* Hero Section */
+.hero {
+    background-image: url("https://img.freepik.com/free-photo/happy-lady-with-clipboard-looking-happy_171337-5823.jpg?semt=ais_hybrid");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: white;
+    padding: 50px 20px;
+    height: 600px;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+ 
+  
+
+.text{
+    position: absolute;
+    bottom:200px;
+    left: 200px;
+   
+    
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.hero .cta-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background:#007bff;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Sections */
+.section {
+    padding: 30px;
+}
+
+.bg-light {
+    background: #fff;
+}
+
+.section h2{
+    padding: 20px 0;
+}
+
+/* List Styles */
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.list li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Countries */
+.countries {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+@keyframes slideInLeft {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  
+  
+
+.countries span {
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    animation: slideInLeft 1s ease-in-out;
+    cursor: pointer;
+}
+
+/* Form Styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #0044cc;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    background: #007bff;
+}
+
+
+@media (max-width:680px) {
+    .text {
+        
+        bottom: 200px;
+        left: auto;
+    }
+}
