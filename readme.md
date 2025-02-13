@@ -22,7 +22,7 @@ git clone
 https://github.com/pavan369-d/abroadmbbswebpage
 cd mbbs-abroad-website
 Open index.html in a browser.
-Open your browser and go to http://localhost/mbbs-abroad-website/ to test the form submission.
+Open your browser and go to http://localhost/index.html/ to test the form submission.
 Deploying the Website
 Use Netlify or Vercel for frontend deployment.
 
