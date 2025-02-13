@@ -6,7 +6,7 @@ This is a simple, SEO-optimized, and responsive landing page for students who wa
 ✅ SEO-optimized content
 ✅ JavaScript form validation
 ✅ Google Analytics & Facebook Pixel integration
-✅ Lead capture form with PHP validation
+
 
 ### Technologies Used
 HTML
@@ -18,7 +18,8 @@ Project Setup
 sh
 Copy
 Edit
-git clone https://github.com/yourusername/mbbs-abroad-website.git
+git clone
+https://github.com/pavan369-d/abroadmbbswebpage
 cd mbbs-abroad-website
 Open index.html in a browser.
 Open your browser and go to http://localhost/mbbs-abroad-website/ to test the form submission.
@@ -46,7 +47,6 @@ Used JavaScript for client-side validation.
 Prevented submission of empty, invalid, or incorrectly formatted data.
 ##### 5. SEO Optimization
 Added meta tags (description, keywords, viewport) for better ranking.
-Used optimized headings (<h1>, <h2>) for structured content.
 Ensured fast loading by avoiding unnecessary external libraries.
 ##### 6. Performance Tracking
 Integrated Google Analytics to track page views and user behavior.
